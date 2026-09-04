@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+
+# Dependencies (contracts/ and frontend/ each have their own node_modules;
+# this is just a safety net in case anything ever gets installed at the root)
+node_modules/
+
+# Environment / secrets (used once we set up Sepolia deploy keys)
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
